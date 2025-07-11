@@ -111,6 +111,7 @@ export type Database = {
           last_consultation: string | null
           name: string | null
           tags: string[] | null
+          updated_at: string | null
           user_id: string | null
           whatsapp_number: string | null
         }
@@ -120,6 +121,7 @@ export type Database = {
           last_consultation?: string | null
           name?: string | null
           tags?: string[] | null
+          updated_at?: string | null
           user_id?: string | null
           whatsapp_number?: string | null
         }
@@ -129,6 +131,7 @@ export type Database = {
           last_consultation?: string | null
           name?: string | null
           tags?: string[] | null
+          updated_at?: string | null
           user_id?: string | null
           whatsapp_number?: string | null
         }
@@ -185,6 +188,7 @@ export type Database = {
           id: string
           patient_id: string | null
           start_date: string | null
+          updated_at: string | null
         }
         Insert: {
           created_at?: string | null
@@ -193,6 +197,7 @@ export type Database = {
           id: string
           patient_id?: string | null
           start_date?: string | null
+          updated_at?: string | null
         }
         Update: {
           created_at?: string | null
@@ -201,6 +206,7 @@ export type Database = {
           id?: string
           patient_id?: string | null
           start_date?: string | null
+          updated_at?: string | null
         }
         Relationships: [
           {
